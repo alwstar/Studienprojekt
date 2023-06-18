@@ -1,0 +1,10 @@
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT TOP (1000) [timestamp]
+      ,[price]
+      ,[feature1]
+      ,[feature2]
+      ,[prediction]
+      ,[source]
+      ,[metadata1]
+      ,[metadata2]
+  FROM [studienprojekt].[dbo].[bitcoin_prices]
