@@ -1,12 +1,12 @@
 CREATE TABLE stock_data_forecast (
-    id INT IDENTITY(1,1) PRIMARY KEY,
-    [date] DATETIME,
-	forecast_date DATETIME,
-	company VARCHAR(255),
-	[type] VARCHAR(255),
-    [open] FLOAT,
-    high FLOAT,
-    low FLOAT,
-    [close] FLOAT,
-    volume BIGINT
+    ID INT IDENTITY(1,1) PRIMARY KEY,
+    [Date] DATETIME,
+	Forecast_Date DATETIME,
+	Company VARCHAR(255),
+	[Type] VARCHAR(255),
+    [Open] FLOAT,
+    High FLOAT,
+    Low FLOAT,
+    [Close] FLOAT,
+    Volume BIGINT
 )
