@@ -1,5 +1,6 @@
 CREATE TABLE stock_data_forecast (
-    ID INT IDENTITY(1,1) PRIMARY KEY,
+    ID INT,
+	[Key] VARCHAR(255),
     [Date] DATETIME,
 	Forecast_Date DATETIME,
 	Company VARCHAR(255),

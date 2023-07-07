@@ -1,0 +1,21 @@
+SELECT Count([Key]),
+[Key]
+FROM [studienprojekt].[dbo].[stock_data_forecast]
+GROUP BY [Key]
+  
+
+SELECT [Key]  
+FROM stock_data_forecast
+GROUP BY [Date]
+
+
+DELETE FROM stock_data_forecast
+--WHERE YEAR(Date)=2022
+
+
+SELECT *
+INTO stock_data_forecast_duplicate
+FROM stock_data_forecast
+
+
+DROP TABLE stock_data_forecast_duplicate
