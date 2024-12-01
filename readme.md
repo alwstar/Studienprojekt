@@ -1,7 +1,3 @@
-Hier ist eine überarbeitete Version der README mit den bisherigen Informationen und zusätzlichen Details aus dem Onepager integriert:
-
----
-
 # Studienprojekt "Zeitreihenanalyse mit Methoden des Maschinellen Lernens"  
 
 ---
