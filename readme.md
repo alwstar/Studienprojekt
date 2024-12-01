@@ -1,53 +1,115 @@
-Studienprojekt "Zeitreihenanalyse mit Methoden des Maschinellen Lernens"
-Study project "Time series analysis with machine learning methods"
+Hier ist eine überarbeitete Version der README mit den bisherigen Informationen und zusätzlichen Details aus dem Onepager integriert:
 
---- Deutsche Fasssung, englisch Fassung finden Sie weiter unten ---
+---
 
-Bei Interesse kann die gesamte Dokumentation der Arbeit zur Verfügung gestellt werden. Bitte unter alw.star@proton.me kontaktieren.
+# Studienprojekt "Zeitreihenanalyse mit Methoden des Maschinellen Lernens"  
+# Study Project "Time Series Analysis with Machine Learning Methods"
 
-Ziel und Kontext der Arbeit:
-Das Studienprojekt zielt darauf ab, die Zukunft der Aktienkurse mittels Maschinellem Lernen (ML) vorherzusagen. Angesichts der zunehmenden Volatilität der Aktienmärkte soll die Arbeit Methoden bereitstellen, um zukünftige Marktbewegungen genauer vorhersagen zu können.
+---
 
-Technische Architektur
-Die Daten für die Analysen werden durch die Yahoo Finance API gesammelt und in einer SQL-Datenbank gespeichert. Anschließend werden die Daten in Jupyter Notebooks geladen und es erfolgt die Anwendung der Methoden des Maschinellen Lernens. Die Ergebnisse werden in eine neue Tabelle persistiert und mit Power BI aufbereitet und visualisiert.
+### Deutsche Fassung (English version below)
 
-Datenset und ETL
-Der ETL-Prozess umfasst das Anlegen von Tabellen in einer Datenbank, das Persistieren historischer Aktienkursdaten, das Laden dieser Daten für die Analyse und das Management von Duplikaten.
+### Projektübersicht
 
-Methodologische Ansätze
-Zwei Hauptmethoden werden für die Zeitreihenanalyse angewandt:
-    ARIMA (Autoregressive Integrated Moving Average): Ein klassisches statistisches Modell für die Vorhersage von univariaten Zeitreihen.
-    LSTM (Long Short-Term Memory): Ein Deep-Learning-Modell für die Vorhersage von sequenziellen, multivariaten Daten.
+Das Ziel dieses Studienprojekts ist es, zukünftige Aktienkurse auf Grundlage historischer Daten mithilfe von Methoden des Maschinellen Lernens (ML) vorherzusagen. Angesichts der zunehmenden Volatilität der Aktienmärkte bietet das Projekt Ansätze, um zukünftige Marktbewegungen präziser zu prognostizieren.  
 
-Visualisierung und Analyse
-Die Arbeit schließt mit der Erstellung eines Dashboards in Power BI ab, das eine effektive Visualisierung und Analyse der Vorhersagedaten ermöglicht.
+Bei Interesse kann die gesamte Dokumentation der Arbeit zur Verfügung gestellt werden. Kontakt: **alw.star@proton.me**
 
-Schlussfolgerungen
-Das Projekt bietet einen fundierten Ansatz zur Nutzung von ML-Methoden für die Vorhersage von Aktienkursen und stellt ein nützliches Werkzeug für Anleger dar, um fundiertere Entscheidungen in einer unsicheren Welt treffen zu können.
+---
+
+### Technische Architektur
+
+- **Datenerhebung**: Historische Aktienkurse werden über die **Yahoo Finance API** mithilfe der Python-Bibliothek `yFinance` gesammelt.
+- **Datenspeicherung**: Die gesammelten Daten werden in einer **SQL-Datenbank** persistiert.
+- **Datenverarbeitung**: Daten werden in **Jupyter Notebooks** geladen und mithilfe von ML-Methoden analysiert.
+- **Visualisierung**: Die Ergebnisse werden in **Power BI** aufbereitet und visualisiert.
+
+---
+
+### Datenset und ETL-Prozess
+
+- **ETL-Schritte**:
+  1. Anlegen von Tabellen in der SQL-Datenbank.
+  2. Persistieren historischer Aktienkursdaten.
+  3. Laden der Daten für Analysen.
+  4. Bereinigung und Management von Duplikaten.
+
+---
+
+### Methodologische Ansätze
+
+- **ARIMA (Autoregressive Integrated Moving Average)**:
+  - Ein statistisches Modell, das sich auf die Vorhersage univariater Zeitreihen spezialisiert.
+- **LSTM (Long Short-Term Memory)**:
+  - Ein Deep-Learning-Modell, das sich besonders für sequenzielle, multivariate Daten eignet.
+
+---
+
+### Visualisierung und Analyse
+
+Das Projekt schließt mit einem interaktiven **Power BI Dashboard**, das eine effektive Visualisierung und Analyse der Prognosedaten ermöglicht.  
+
+---
+
+### Schlussfolgerungen
+
+Dieses Studienprojekt zeigt die Kombination klassischer statistischer und moderner Deep-Learning-Ansätze zur Vorhersage von Aktienkursen auf. Die Arbeit liefert ein nützliches Werkzeug für Anleger, um datenbasierte Entscheidungen in einem unsicheren Marktumfeld treffen zu können.
+
+---
+
+## English Version
+
+### Project Overview
+
+This study project aims to predict future stock prices using historical data and machine learning (ML) methods. In light of increasing stock market volatility, the project provides approaches for more precise predictions of future market movements.  
+
+If interested, the full documentation of the work can be made available. Contact: **alw.star@proton.me**
+
+---
+
+### Technical Architecture
+
+- **Data Collection**: Historical stock prices are gathered via the **Yahoo Finance API** using Python’s `yFinance` library.
+- **Data Storage**: Collected data is stored in an **SQL database**.
+- **Data Processing**: Data is loaded into **Jupyter Notebooks** and analyzed using ML methods.
+- **Visualization**: Results are processed and visualized in **Power BI**.
+
+![alt text](pic1.png)
+
+---
+
+### Dataset and ETL Process
+
+- **ETL Steps**:
+  1. Creating tables in the SQL database.
+  2. Persisting historical stock price data.
+  3. Loading data for analysis.
+  4. Cleaning and managing duplicates.
+
+---
+
+### Methodological Approaches
+
+- **ARIMA (Autoregressive Integrated Moving Average)**:
+  - A statistical model specialized in forecasting univariate time series.
+- **LSTM (Long Short-Term Memory)**:
+  - A deep learning model well-suited for sequential, multivariate data.
+
+---
+
+### Visualization and Analysis
+
+The project concludes with an interactive **Power BI Dashboard**, enabling effective visualization and analysis of prediction data.
+
+![alt text](pic2.png)
 
 
---- English Version ---
+---
 
-Study project "Time series analysis with machine learning methods".
+### Conclusions
 
-If interested, the entire documentation of the work can be made available. Please contact alw.star@proton.me.
+This study project demonstrates the combination of classical statistical and modern deep-learning approaches for predicting stock prices. It offers a useful tool for investors to make data-driven decisions in an uncertain market environment.
 
-Objective and context of the work:
-The study project intends to predict the future of stock prices using Machine Learning (ML). Given the increasing volatility of stock markets, the project is intended to provide methods to more accurately predict future market movements.
+---
 
-Technical architecture
-Data for the analyses is collected through the Yahoo Finance API and stored in an SQL database. The data is then loaded into Jupyter Notebooks and machine learning methods are applied. The results are persisted into a new table and processed and visualised using Power BI.
-
-Data set and ETL
-The ETL process involves creating tables in a database, persisting historical stock price data, loading this data for analysis and managing duplicates.
-
-Methodological approaches
-Two main methodologies are used for time series analysis:
-    ARIMA (Autoregressive Integrated Moving Average): A classical statistical model for predicting univariate time series.
-    LSTM (Long Short-Term Memory): A deep learning model for predicting sequential multivariate data.
-
-Visualisation and analysis
-The work concludes with the creation of a dashboard in Power BI that allows effective visualisation and analysis of the prediction data.
-
-Conclusions
-The project provides a sound approach to using ML methods to predict stock prices and provides a useful tool for investors to make more informed decisions in an uncertain world.
+Diese README kombiniert den bisherigen Inhalt mit einer klar strukturierten Darstellung und fügt Details aus dem PDF hinzu.
